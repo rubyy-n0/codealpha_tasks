@@ -1,40 +1,109 @@
 # CodeAlpha Data Analytics Internship
 
 ## Task 2: Exploratory Data Analysis (EDA)
-
 ### Project: Bike Sharing Dataset Analysis
 
 **Domain:** Data Analytics  
 **Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook
 
-### Project Overview
-This project performs Exploratory Data Analysis on the Bike Sharing Dataset to understand rental patterns and identify relationships between bike demand, time, seasons, weather conditions, and user categories.
+### 1. Project Overview
 
-### Objectives
-- Explore and understand the dataset.
-- Identify missing values and duplicate records.
-- Perform data cleaning and preparation.
-- Analyze hourly and seasonal rental patterns.
-- Examine weather conditions and bike rental demand.
-- Compare casual and registered users.
-- Visualize findings using charts and graphs.
+This project focuses on performing Exploratory Data Analysis (EDA) on the Bike Sharing Dataset using Python.
 
-### Dataset
-The project uses the Bike Sharing Dataset containing 17,379 hourly records and 17 original columns.
+The objective is to explore, clean and analyze the dataset to understand bike rental patterns and identify relationships between rental demand, time, seasons, weather conditions and user categories.
 
-### Project Files
-- `eda_analysis.ipynb` — Main analysis notebook.
-- `hour.csv` — Original dataset.
-- `outputs/` — Cleaned dataset, statistical summaries and visualization charts.
+### 2. Dataset
 
-### Key Findings
-- Peak bike rental demand occurs around 5 PM.
-- Fall has the highest average seasonal rental demand.
-- Registered users contribute the majority of rentals.
-- Clear weather has the highest average rental demand.
+**Dataset:** Bike Sharing Dataset (`hour.csv`)
 
-### Conclusion
-The analysis identifies important patterns in bike-sharing usage and provides insights that can support demand planning and operational decision-making.
+**Number of records:** 17,379
+
+**Number of columns:** 17
+
+The dataset contains hourly bike rental records, including date, season, hour, weather conditions, temperature, humidity, wind speed and customer rental counts.
+
+### 3. Tools and Technologies
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+### 4. Analysis Performed
+
+The project includes:
+
+1. Dataset Exploration and Inspection
+2. Data Cleaning and Preparation
+3. Missing Value Analysis
+4. Duplicate Record Detection
+5. Descriptive Statistical Analysis
+6. Hourly Bike Rental Analysis
+7. Seasonal Rental Analysis
+8. User Type Comparison
+9. Weather Impact Analysis
+10. Working Day Comparison
+11. Correlation Analysis
+12. Data Visualization
+
+### 5. Key Findings
+
+- The dataset contains 17,379 records and 17 columns.
+- No missing values were identified during the initial data inspection.
+- No duplicate records were identified.
+- Bike rental demand varies across different hours and seasons.
+- Registered users contribute the majority of bike rentals.
+- Weather conditions are associated with changes in rental demand.
+
+### 6. Business Recommendations
+
+- Analyze peak rental periods to improve bike availability.
+- Consider seasonal demand when planning operational resources.
+- Focus on customer retention and registered user engagement.
+- Monitor weather conditions when planning bike distribution.
+- Use data-driven insights to improve operational efficiency.
+
+### 7. Project Structure
+
+```text
+Task2_EDA/
+|
+|-- eda_analysis.ipynb
+|-- hour.csv
+|-- README.md
+|
+|-- outputs/
+    |
+    |-- bike_sharing_cleaned.csv
+    |-- descriptive_statistics.csv
+    |-- hourly_rental_summary.csv
+    |-- seasonal_rental_summary.csv
+    |-- user_type_summary.csv
+    |-- weather_rental_summary.csv
+    |
+    |-- charts/
+```
+
+### 8. How to Run
+
+1. Install Python.
+2. Install the required libraries:
+
+   `pip install pandas numpy matplotlib seaborn`
+
+3. Open `eda_analysis.ipynb` in VS Code.
+4. Ensure `hour.csv` is available in the Task2_EDA folder.
+5. Run the notebook cells sequentially.
+
+### 9. Conclusion
+
+This project demonstrates the importance of Exploratory Data Analysis in understanding and preparing real-world datasets.
+
+Through data inspection, cleaning, statistical analysis and visualization, the project identifies meaningful patterns in bike-sharing usage.
+
+The findings provide a foundation for understanding customer behavior and supporting data-driven operational decisions.
 
 ---
 

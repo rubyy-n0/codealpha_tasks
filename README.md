@@ -50,7 +50,8 @@ codealpha_tasks/
 │   ├── README.md
 │   ├── eda_analysis.ipynb
 │   ├── hour.csv
-│   └── outputs/
+│    └── outputs/
+│       └── charts/
 │
 ├── Task3_DataVisualization/
 │   ├── README.md

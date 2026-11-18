@@ -1,6 +1,5 @@
-
-# CodeAlpha Internship - Task 3
-## Data Visualization: Bike Sharing Dataset
+# CodeAlpha  Data Analytics Internship
+## Task 3: Data Visualization: Bike Sharing Dataset
 
 ### 1. Project Overview
 
